@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+:root {
+  --cream: #fdf6e3;
+  --paper: #fef9f0;
+  --ink: #2c2c2c;
+  --ink-light: #5c5c5c;
+  --brown: #8b5e3c;
+  --brown-light: #c49a6c;
+  --accent: #f4a261;
+  --accent-dark: #e76f51;
+  --green: #7fa98b;
+  --purple: #9b89b4;
+  --blue: #6b9ab8;
+  --shadow: rgba(0, 0, 0, 0.15);
+  --shadow-deep: rgba(0, 0, 0, 0.3);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--cream);
+  color: var(--ink);
+  font-family: 'Lora', serif;
+}
+
